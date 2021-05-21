@@ -1,7 +1,7 @@
 {
   "name": "daddyjoke",
-  "version": "1.0.0",
-  "description": "DaddyJoke allows you to get a random joke instantly via JS",
+  "version": "3.0.0",
+  "description": "Get a random joke instantly using DaddyJoke",
   "main": "index.js",
   "dependencies": {
     "request": "^2.88.2"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eklavya-Chandra/DaddyJoke.git"
+    "url": "git+https://github.com/eklavyadev/DaddyJoke.git"
   },
   "keywords": [
     "dad",
@@ -26,7 +26,7 @@
   "author": "Eklavya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Eklavya-Chandra/DaddyJoke/issues"
+    "url": "https://github.com/Eklavyadev/DaddyJoke/issues"
   },
-  "homepage": "https://github.com/Eklavya-Chandra/DaddyJoke#readme"
+  "homepage": "https://github.com/Eklavyadev/DaddyJoke#readme"
 }
