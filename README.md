@@ -1,6 +1,6 @@
 ![banner image](https://github.com/Eklavya-Chandra/DaddyJoke/blob/main/Images/daddyjoke2.png)
 
-### DaddyJoke allows you to get a random joke instantly via JS
+### Get a random joke instantly using DaddyJoke
 
 ##
 
