@@ -1,4 +1,4 @@
-![banner image](https://github.com/Eklavya-Chandra/DaddyJoke/blob/main/Images/daddyjoke2.png)
+![banner image](https://github.com/eklavyadev/DaddyJoke/blob/main/Images/daddyjoke2.png)
 
 ### Get a random joke instantly using DaddyJoke
 

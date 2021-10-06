@@ -11,7 +11,7 @@ function getJoke() {
 
     request(options, function(err, res, body) {
     let json = JSON.parse(body);
-    console.log(json['setup'], json['punchline']);
+    console.log(json['setup'] + " " + json['punchline']);
 }); 
 }
 
