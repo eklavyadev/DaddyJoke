@@ -1,24 +1,24 @@
 'use strict';
-const request = require('request');
-function getJoke() {
-    const options = {
-    url: 'https://karljoke.herokuapp.com/jokes/random',
-    method: 'GET',
-    headers: {
-        'Accept': 'application/json',
-        'Accept-Charset': 'utf-8'
-    }};
+const axios = require('axios');
 
-    request(options, function(err, res, body) {
-    let json = JSON.parse(body);
-    console.log(json['setup'] + " " + json['punchline']);
-}); 
+async function getJoke() {
+    try {
+        const response = await axios.get('https://official-joke-api.appspot.com/jokes/random', {
+            headers: {
+                'Accept': 'application/json',
+                'Accept-Charset': 'utf-8'
+            }
+        });
+        const joke = response.data;
+        console.log(`${joke.setup} ${joke.punchline}`);
+    } catch (error) {
+        console.error("Error fetching joke: ", error.message || error);
+    }
 }
-
 
 function about() {
     console.log(
-    "DaddyJoke allows you to get a random joke instantly via JS\nAuthor Name - Eklavya Chandra"
+        "DaddyJoke is a simple tool to fetch random jokes instantly using JavaScript.\nDeveloped by - Eklavya Chandra"
     );
 }
 
